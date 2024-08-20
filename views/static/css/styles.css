@@ -44,11 +44,29 @@ body {
 }
 
 .landing_logo {
-    width: 15rem;
+    width: 18rem;
+    padding: 3rem;
 }
 
 .landing__title{
     display: inline;
+    position: absolute;
+    width: 22.438;
+    height: 13.563rem;
+    left: 37.438rem;
+    top: 11.9rem;
+    font-size: 5rem;
+    text-decoration: underline;
+}
+
+.btn{
+    border: none;
+    border-radius: 4px;
+    background-color: #9ACC77;
+    color: #FFFFFF;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
 }
 
 #footer {
