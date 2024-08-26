@@ -3,7 +3,6 @@ body {
     font-family: Arial, sans-serif;
     position: relative;
     background-color: #E5EAD4;
-    padding-bottom: 3em;
     min-height: 100vh;
 }
 .navbar {
@@ -104,9 +103,9 @@ body {
 
 .btn{
     border: none;
-    border-radius: 4px;
+    border-radius: 1rem;
     background-color: #9ACC77;
-    color: #FFFFFF;
+    color: #334F53;
     padding: 14px 28px;
     font-size: 16px;
     cursor: pointer;
@@ -114,10 +113,20 @@ body {
 
 #footer {
     background-color: #334F53;
-    position: absolute;
+    position: sticky;
     left: 0;
     bottom: 0;
     width: 100%;
     color: white;
     text-align: center;
+    display: flex;
 }
+
+.title {
+margin-left: 2rem;
+}
+
+#window__organizacion > h2:nth-child(1) {
+text-align: end;
+}
+  
