@@ -15,12 +15,12 @@ body {
 }
 
 .navbar a {
-    float: left;
     display: block;
     color: #FFFFFF;
     text-align: center;
-    padding: 20px;
+    padding: 1.3rem;
     text-decoration: none;
+    font-weight: bold;
 }
 /* .navbar a:hover {
     background-color: #ddd;
@@ -50,7 +50,6 @@ body {
 .landing__title{
     display: inline;
     position: absolute;
-    height: 13.563rem;
     left: 37.438rem;
     top: 7.5rem;
     font-size: 5rem;
@@ -71,11 +70,14 @@ body {
     margin-right: 15rem;
     font-size: 4rem;
     color: #E5EAD4;
+    margin-left: 2rem;
 }
 
 .description{
-    width: 51%;
-    font-size: 1.5rem;
+    width: 65%;
+    font-size: 1.8rem;
+    word-spacing: 0.4rem;
+    line-height: 2.4rem;
     color: #FFF;
 }
 
@@ -106,9 +108,11 @@ body {
     border-radius: 1rem;
     background-color: #9ACC77;
     color: #334F53;
-    padding: 14px 28px;
-    font-size: 16px;
+    padding: 0.8rem 1.5rem;
+    font-size: 1.5rem;
     cursor: pointer;
+    font-family: Arial;
+    font-weight: bold;
 }
 
 #footer {
@@ -117,13 +121,25 @@ body {
     left: 0;
     bottom: 0;
     width: 100%;
-    color: white;
     text-align: center;
     display: flex;
 }
 
-.title {
-margin-left: 2rem;
+#contacto {
+    display: flex;
+    width: 100%;
+    font-size: 1.8rem;
+    color: #FFFFFF;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.instagram_logo {
+    vertical-align: middle;
+}
+
+#contacto span {
+    margin: 1rem;
 }
 
 #window__organizacion > h2:nth-child(1) {
