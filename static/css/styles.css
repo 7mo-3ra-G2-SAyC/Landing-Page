@@ -14,13 +14,14 @@ body {
     width: 2.5rem;
 }
 
+
 .navbar a {
+    float: left;
     display: block;
     color: #FFFFFF;
     text-align: center;
-    padding: 1.3rem;
+    padding: 20px;
     text-decoration: none;
-    font-weight: bold;
 }
 /* .navbar a:hover {
     background-color: #ddd;
@@ -50,6 +51,7 @@ body {
 .landing__title{
     display: inline;
     position: absolute;
+    height: 13.563rem;
     left: 37.438rem;
     top: 7.5rem;
     font-size: 5rem;
@@ -70,14 +72,11 @@ body {
     margin-right: 15rem;
     font-size: 4rem;
     color: #E5EAD4;
-    margin-left: 2rem;
 }
 
 .description{
-    width: 65%;
-    font-size: 1.8rem;
-    word-spacing: 0.4rem;
-    line-height: 2.4rem;
+    width: 51%;
+    font-size: 1.5rem;
     color: #FFF;
 }
 
@@ -95,25 +94,55 @@ body {
     background-color: #45936C;
     margin-bottom: 3.15rem;
     padding: 2rem;
+    display: flex;
 }
 
 #window__mapeo{
     background-color: #45936C;
     margin-bottom: 3.15rem;
     padding: 2rem;
+    display: flex;
+}
+#window__footer{
+    background-color:#334F53;
+    margin-bottom: 3.15rem;
+    padding: 2rem;
+    display: flex;
+}
+#texto {
+text-align: right;
+}
+#texto__ {
+    text-align: right;
 }
 
-.btn{
+.btn_mapa {
+
+    bottom: 10px; 
+    right: 10px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: rgb(72, 129, 38);
     border: none;
-    border-radius: 1rem;
-    background-color: #9ACC77;
-    color: #334F53;
-    padding: 0.8rem 1.5rem;
-    font-size: 1.5rem;
+    border-radius: 5px;
     cursor: pointer;
-    font-family: Arial;
-    font-weight: bold;
+    
 }
+
+.btn_crono{
+ 
+    bottom: 10px; 
+    right: 10px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: rgb(72, 129, 38);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+
 
 #footer {
     background-color: #334F53;
@@ -121,25 +150,16 @@ body {
     left: 0;
     bottom: 0;
     width: 100%;
+    color: white;
     text-align: center;
     display: flex;
 }
 
-#contacto {
-    display: flex;
-    width: 100%;
-    font-size: 1.8rem;
-    color: #FFFFFF;
-    flex-direction: column;
-    justify-content: center;
+.title {
+margin-left: 2rem;
 }
-
-.instagram_logo {
-    vertical-align: middle;
-}
-
-#contacto span {
-    margin: 1rem;
+h2{
+    text-align: center;
 }
 
 #window__organizacion > h2:nth-child(1) {
