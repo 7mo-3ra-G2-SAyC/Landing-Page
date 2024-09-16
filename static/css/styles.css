@@ -91,17 +91,39 @@ body {
     text-align: end;
 }
 
+#texto{
+    display: grid;
+    place-items: center;
+    width: 100%;
+}
+
+#texto h2{
+    margin: 0 auto;
+}
+
+#texto div{
+    display: grid;
+    place-items: center;
+    width: 100%;
+}
+
 #window__cronograma{
     background-color: #45936C;
     margin-bottom: 3.15rem;
     padding: 2rem;
+    display: flex;
 }
 
 #window__mapeo{
     background-color: #45936C;
     margin-bottom: 3.15rem;
     padding: 2rem;
+    display: flex;
 }
+
+/* #container__btn{
+    overflow: hidden;
+} */
 
 .btn{
     border: none;
